@@ -169,8 +169,3 @@ async fn subscribe_returns_a_400_when_fields_are_present_but_invalid() {
     }
 }
 
-#[test]
-fn dummy_fail() {
-    let result: Result<&str, &str> = Err("The app crashed due to an IO error");
-    claim::assert_ok!(result);
-}
