@@ -4,3 +4,6 @@ application:
 database:
   # New entry!
   require_ssl: false
+email_client:
+  base_url: "localhost"
+  sender_email: "thanhde.nguyen@shopee.com"
